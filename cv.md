@@ -8,4 +8,17 @@
 
 I am 59 years old. I am a professional builder.
 
-So, I decided to start programming. Why not..
+So, I decided to start programming. Why not...
+
+## Skills
+
+* HTML
+* CSS
+
+## Education
+
+* Code-Basics
+
+    Free HTML/CSS/JavaScript course: online training from scratch.
+
+* Course on layout and creation of websites from scratch. All the basics of HTML/CSS in practice.
