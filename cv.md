@@ -22,3 +22,7 @@ So, I decided to start programming. Why not...
     Free HTML/CSS/JavaScript course: online training from scratch.
 
 * Course on layout and creation of websites from scratch. All the basics of HTML/CSS in practice.
+
+## Languages
+
+* Russian
