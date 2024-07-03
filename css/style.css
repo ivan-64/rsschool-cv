@@ -1,1 +1,55 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("assers/fonts/RobotoRegular.ttf");
+    font-weight: 300;
+}
+html {
+    scroll-behavior: smooth;
+    background-color: rgba(226, 226, 226, 0.966);
+}
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+}
+.wrapper {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+} 
+
+/* header */
+
+.header {
+    width: 1440px;
+    height: 100px;
+    background-color: black;
+    border: blue solid 1px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
