@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Roboto";
-    src: url("assers/fonts/RobotoRegular.ttf");
+    src: url("assets/fonts/RobotoRegular.ttf");
     font-weight: 300;
 }
 html {
@@ -15,7 +15,11 @@ html {
 }
 
 body {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
 }
 .wrapper {
     width: 1440px;
@@ -30,7 +34,6 @@ body {
     width: 1440px;
     height: 100px;
     background-color: black;
-    border: blue solid 1px;
 }
 
 .container {
@@ -52,4 +55,89 @@ body {
     font-weight: 700;
     font-size: 40px;
     color: #fff;
+}
+
+/* main */
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-profile {
+    /* width: 50%; */
+    width: 1440px;
+    height: 640px;
+}
+/* @media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+} */
+    /* SECTION-title */
+
+.section-title {
+display: flex; 
+
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.avatar {
+    width: 376px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 320px;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    margin-left: 240px;
+}
+
+.avatar_foto {
+    width: 376px;
+    height: 500px;
+}
+/* SECTION-contacts */
+
+.section-contact {
+    width: 500px;
+    height: 200px;
+    padding-left: 160px;
+}
+
+.h2 {
+padding-left: 100px;
+}
+
+.li {
+list-style-type: none;
+}
+    
+    /*SECTION-summary*/
+
+.section-summary {
+    width: 600px;
+    height: 200px;
+    margin-left: 130px;
+}
+
+/* SECTION-skills */
+
+.section-skills {
+    width: 500px;
+    height: 200px;
+    padding-left: 160px;
+}
+
+/* SECTION-course */
+
+.section-courses {
+    width: 600px;
+    height: 200px;
+    margin-left: 130px;
 }
