@@ -1,8 +1,9 @@
 @font-face {
     font-family: "Roboto";
-    src: url("assets/fonts/RobotoRegular.ttf");
-    font-weight: 300;
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+    font-weight: 400;
 }
+
 html {
     scroll-behavior: smooth;
     background-color: rgba(226, 226, 226, 0.966);
@@ -21,6 +22,7 @@ body {
     line-height: 1.5;
     color: #000;
 }
+
 .wrapper {
     width: 1440px;
     height: 100%;
@@ -53,7 +55,7 @@ body {
 .nav-link {
     text-decoration: none;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
 }
 
@@ -69,12 +71,7 @@ body {
     width: 1440px;
     height: 640px;
 }
-/* @media (max-width: 768px) {
-    .section {
-        width: 100%;
-    }
-} */
-    /* SECTION-title */
+/* SECTION-title */
 
 .section-title {
 display: flex; 
@@ -118,7 +115,7 @@ padding-left: 100px;
 list-style-type: none;
 }
     
-    /*SECTION-summary*/
+/*SECTION-summary*/
 
 .section-summary {
     width: 600px;
@@ -140,4 +137,47 @@ list-style-type: none;
     width: 600px;
     height: 200px;
     margin-left: 130px;
+}
+
+/* SECTION-code */
+
+.section-code {
+    width: 500px;
+    height: 200px;
+    padding-left: 160px;
+    border: blue solid 1px;
+}
+
+/* SECTION-projects */
+
+.section-projects {
+    width: 600px;
+    height: 90px;
+    margin-left: 130px;
+    border: blue solid 1px;
+}
+
+.first-project {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+/* SECTION-education */
+
+.section-education {
+    width: 600px;
+    height: 90px;
+    margin-top: 40px;
+    border: blue solid 1px;
+}
+
+/* SECTION-english */
+
+.section-english {
+    width: 600px;
+    height: 90px;
+    margin-left: 630px;
+    border: blue solid 1px
 }
