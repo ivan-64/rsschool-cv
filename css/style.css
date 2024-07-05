@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: rgba(226, 226, 226, 0.966);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+}
+
+.wrapper {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+} 
+
+/* header */
+
+.header {
+    width: 1440px;
+    height: 100px;
+    background-color: black;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* main */
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-profile {
+    /* width: 50%; */
+    width: 1440px;
+    height: 640px;
+}
+/* SECTION-title */
+
+.section-title {
+display: flex; 
+
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.avatar {
+    width: 376px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 320px;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    margin-left: 240px;
+}
+
+.avatar_foto {
+    width: 376px;
+    height: 500px;
+}
+/* SECTION-contacts */
+
+.section-contact {
+    width: 500px;
+    height: 200px;
+    padding-left: 160px;
+}
+
+.h2 {
+padding-left: 100px;
+}
+
+.li {
+list-style-type: none;
+}
+    
+/*SECTION-summary*/
+
+.section-summary {
+    width: 600px;
+    height: 200px;
+    margin-left: 130px;
+}
+
+/* SECTION-skills */
+
+.section-skills {
+    width: 500px;
+    height: 200px;
+    padding-left: 160px;
+}
+
+/* SECTION-course */
+
+.section-courses {
+    width: 600px;
+    height: 200px;
+    margin-left: 130px;
+}
+
+/* SECTION-code */
+
+.section-code {
+    width: 500px;
+    height: 200px;
+    padding-left: 160px;
+}
+
+/* SECTION-projects */
+
+.section-projects {
+    width: 600px;
+    height: 90px;
+    margin-left: 130px;
+}
+
+.first-project {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+/* SECTION-education */
+
+.section-education {
+    width: 600px;
+    height: 90px;
+    margin-top: 40px;
+}
+
+/* SECTION-english */
+
+.section-english {
+    width: 600px;
+    height: 90px;
+    margin-left: 630px;
+}
+/* FOOTER */
+
+.footer {
+    width: 1440px;
+    height: 100px;
+    margin-top: 200px;
+    background-color: #000;
+    border:#000 solid 1px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+
+.footer-logo {
+    margin-left: 140px;
+    width: 140px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 10%;
+    
+}
+
+.h2-footer {
+    color: #fff;
+    font-size: 30px;
+}
+
+.github {
+    margin-right: 140px;
+    border-radius: 50%;
+}
