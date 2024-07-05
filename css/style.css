@@ -39,7 +39,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding-top: 20px;
 }
@@ -145,7 +145,6 @@ list-style-type: none;
     width: 500px;
     height: 200px;
     padding-left: 160px;
-    border: blue solid 1px;
 }
 
 /* SECTION-projects */
@@ -154,7 +153,6 @@ list-style-type: none;
     width: 600px;
     height: 90px;
     margin-left: 130px;
-    border: blue solid 1px;
 }
 
 .first-project {
@@ -170,7 +168,6 @@ list-style-type: none;
     width: 600px;
     height: 90px;
     margin-top: 40px;
-    border: blue solid 1px;
 }
 
 /* SECTION-english */
@@ -179,5 +176,40 @@ list-style-type: none;
     width: 600px;
     height: 90px;
     margin-left: 630px;
-    border: blue solid 1px
+}
+/* FOOTER */
+
+.footer {
+    width: 1440px;
+    height: 100px;
+    margin-top: 200px;
+    background-color: #000;
+    border:#000 solid 1px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+
+.footer-logo {
+    margin-left: 140px;
+    width: 140px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 10%;
+    
+}
+
+.h2-footer {
+    color: #fff;
+    font-size: 30px;
+}
+
+.github {
+    margin-right: 140px;
+    border-radius: 50%;
 }
